@@ -11,29 +11,27 @@ function Footer() {
         <div className="footer">
             <div className="socialMedia">
                 <GitHubIcon
-                    onClick={(event) =>
-                        window.open("https://github.com/AnmolS99")
-                    }
+                    onClick={() => window.open("https://github.com/AnmolS99")}
                 />
                 <LinkedInIcon
-                    onClick={(event) =>
+                    onClick={() =>
                         window.open(
                             "https://www.linkedin.com/in/anmol-singh-a20a27180/"
                         )
                     }
                 />
                 <FacebookIcon
-                    onClick={(event) =>
+                    onClick={() =>
                         window.open("https://www.facebook.com/anmol.sarai/")
                     }
                 />
                 <InstagramIcon
-                    onClick={(event) =>
+                    onClick={() =>
                         window.open("https://www.instagram.com/anmol_sarai/")
                     }
                 />
                 <EmailIcon
-                    onClick={(event) =>
+                    onClick={() =>
                         (window.location = "mailto:anmol_singh@live.no")
                     }
                 />
