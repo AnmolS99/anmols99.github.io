@@ -35,12 +35,13 @@ function Home() {
                 <ol className="list">
                     <li className="item">
                         <h2>Languages</h2>
-                        <span>Python, Java, SQL , SPL</span>
+                        <span>Python, Java, SQL, SPL</span>
                     </li>
                     <li className="item">
                         <h2>AI</h2>
                         <span>
-                            Tensorflow, Keras, NumPy, Pandas, scikit-learn
+                            Tensorflow, Keras, NumPy, Pandas, scikit-learn,
+                            Matplotlib
                         </span>
                     </li>
                     <li className="item">
