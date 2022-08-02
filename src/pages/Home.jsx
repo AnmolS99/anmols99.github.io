@@ -3,6 +3,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css";
+import Wave from "../components/Wave";
 
 function Home() {
     return (
@@ -29,6 +30,7 @@ function Home() {
                         }
                     />
                 </div>
+                <Wave />
             </div>
             <div className="skills">
                 <h2>Skills</h2>
