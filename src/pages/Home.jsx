@@ -4,6 +4,19 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css";
 import Wave from "../components/Wave";
+import SkillList from "../components/SkillList";
+import {
+    PythonImg,
+    JavaImg,
+    CImg,
+    TensorflowImg,
+    KerasImg,
+    NumPyImg,
+    PandasImg,
+    SciKitLearnImg,
+    MatplotlibImg,
+    SplunkImg,
+} from "../helpers/IconImgPaths";
 
 function Home() {
     return (
@@ -37,18 +50,24 @@ function Home() {
                 <ol className="list">
                     <li className="item">
                         <h2>Languages</h2>
-                        <span>Python, Java, C, SQL</span>
+                        <SkillList skillImgList={[PythonImg, JavaImg, CImg]} />
                     </li>
                     <li className="item">
                         <h2>AI</h2>
-                        <span>
-                            Tensorflow, Keras, NumPy, Pandas, scikit-learn,
-                            Matplotlib
-                        </span>
+                        <SkillList
+                            skillImgList={[
+                                TensorflowImg,
+                                KerasImg,
+                                NumPyImg,
+                                PandasImg,
+                                SciKitLearnImg,
+                                MatplotlibImg,
+                            ]}
+                        />
                     </li>
                     <li className="item">
                         <h2>Tools</h2>
-                        <span>Splunk</span>
+                        <SkillList skillImgList={[SplunkImg]} />
                     </li>
                 </ol>
             </div>
