@@ -37,7 +37,7 @@ function Home() {
                 <ol className="list">
                     <li className="item">
                         <h2>Languages</h2>
-                        <span>Python, Java, SQL, SPL</span>
+                        <span>Python, Java, C, SQL</span>
                     </li>
                     <li className="item">
                         <h2>AI</h2>
