@@ -18,11 +18,21 @@
 }
 
 .project p {
-    font-size: 40px;
-    color: #3e497a;
+    font-size: 30px;
+    padding: 5%;
 }
 
 .project svg {
     font-size: 60px;
     color: #3e497a;
+}
+
+@media only screen and (max-width: 500px) {
+    .project h1 {
+        font-size: 25px;
+    }
+
+    .project img {
+        width: 100%;
+    }
 }

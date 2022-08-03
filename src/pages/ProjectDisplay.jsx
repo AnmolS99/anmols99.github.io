@@ -11,9 +11,10 @@ function ProjectDisplay() {
         <div className="project">
             <h1> {project.name} </h1>
             <img src={project.image} alt="" />
-            <p>
+            <p>{project.description}</p>
+            <h2>
                 <b>Skills: </b> {project.skills}
-            </p>
+            </h2>
             <GitHubIcon onClick={() => window.open(project.githubLink)} />
         </div>
     );
