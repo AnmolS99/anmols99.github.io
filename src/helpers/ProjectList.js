@@ -3,6 +3,7 @@ import ProjectDGM from "../assets/project_dgm.png";
 import ProjectTSF from "../assets/project_tsf.png";
 import ProjectGPRLS from "../assets/project_gprls.gif";
 import ProjectMCTS from "../assets/project_mcts.gif";
+import ProjectSARSA from "../assets/project_sarsa.gif";
 
 export const ProjectList = [
     {
@@ -44,5 +45,13 @@ export const ProjectList = [
             "This project was part of the Artificial Intelligence Programming (IT3105) course at NTNU spring 2022. The aim of this project was to implement a Monte Carlo Tree Search (MCTS) system and combine it with Reinforcement Learning (RL) and Deep Learning (DL) to play the board game Hex.",
         skills: "Python, NumPy, Tensorflow Keras, Matplotlib, NetworkX",
         githubLink: "https://github.com/AnmolS99/MCTS-Deep-RL",
+    },
+    {
+        name: "Reinforcement Learning using SARSA Algorithm",
+        image: ProjectSARSA,
+        description:
+            "This project was part of the Artificial Intelligence Programming (IT3105) course at NTNU spring 2022. The aim of this project was to create a reinforcement learning system using the SARSA-RL Algorithm to learn to play a simple physics game, named The Acrobat Game.",
+        skills: "Python, NumPy, Tensorflow Keras, Matplotlib",
+        githubLink: "https://github.com/AnmolS99/SARSA-RL",
     },
 ];
