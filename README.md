@@ -9,4 +9,4 @@ The website was built by following [this](https://www.youtube.com/watch?v=x7mwVn
 - [ ] Update images on projects "Deep Neural Network" and "Deep Generative Models".
 - [ ] Change fonts.
 - [ ] Add a more detailed "about me" section with photo, over skills section on home-page.
-- [ ] [BUG] It is possible to scroll down on the navbar-menu on mobile devices.
+- [x] [BUG] It is possible to scroll down on the navbar-menu on mobile devices.
