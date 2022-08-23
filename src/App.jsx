@@ -6,12 +6,17 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 function App() {
+    const [expandNavbar, setExpandNavbar] = useState(false);
     return (
-        <div className="App">
+        <div className={`App ${expandNavbar ? "NavOpen" : ""}`}>
             <HashRouter>
-                <Navbar />
+                <Navbar
+                    expandNavbar={expandNavbar}
+                    setExpandNavbar={setExpandNavbar}
+                />
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/projects" element={<Projects />} />

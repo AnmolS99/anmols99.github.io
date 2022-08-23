@@ -11,3 +11,10 @@ body {
     padding: 0;
     margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .NavOpen {
+        overflow: hidden;
+        position: fixed;
+    }
+}
