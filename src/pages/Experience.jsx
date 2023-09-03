@@ -73,6 +73,18 @@ function Experience() {
                         the IT-systems and pipelines at Bertel O. Steen.
                     </p>
                 </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2023 -"
+                    iconStyle={{ background: "#efd231", color: "#FFF" }}
+                    icon={<WorkIcon />}
+                >
+                    <h3 className="vertical-timeline-element-title">
+                        IT Consultant, Itera
+                    </h3>
+                    <h4 className="vertical-timeline-element-title">Oslo</h4>
+                    <p>Graduate developer for Itera.</p>
+                </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
     );

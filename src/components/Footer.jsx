@@ -7,6 +7,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Footer.css";
 
 function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <div className="footer">
             <div className="socialMedia">
@@ -36,7 +37,7 @@ function Footer() {
                     }
                 />
             </div>
-            <p> &copy; 2022 anmols99.github.io</p>
+            <p> &copy; {currentYear} anmols99.github.io</p>
         </div>
     );
 }

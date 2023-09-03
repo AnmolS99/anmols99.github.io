@@ -24,7 +24,10 @@ function Home() {
             <div className="about">
                 <h2>Hi, my name is Anmol</h2>
                 <div className="prompt">
-                    <p> A Computer Science student specializing in AI </p>
+                    <p>
+                        A developer with a M.Sc. degree in Computer Science with
+                        specialization in AI
+                    </p>
                     <GitHubIcon
                         onClick={() =>
                             window.open("https://github.com/AnmolS99")
