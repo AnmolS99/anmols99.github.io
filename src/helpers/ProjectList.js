@@ -1,3 +1,4 @@
+import ProjectChess from "../assets/project_chess.gif";
 import ProjectDNN from "../assets/project_dnn.png";
 import ProjectDGM from "../assets/project_dgm.png";
 import ProjectTSF from "../assets/project_tsf.png";
@@ -6,6 +7,14 @@ import ProjectMCTS from "../assets/project_mcts.gif";
 import ProjectSARSA from "../assets/project_sarsa.gif";
 
 export const ProjectList = [
+    {
+        name: "Chess AI",
+        image: ProjectChess,
+        description:
+            "Hobby project during spring of 2024. I had played chess casually recently and wanted to learn more about chess programming. The aim of this project was to create a chess engine and AI bot from scratch. The AI bot was built on the minimax algorithm with alpha-beta pruning.",
+        skills: "Python, NumPy, PyGame",
+        githubLink: "https://github.com/AnmolS99/Chess-AI",
+    },
     {
         name: "Deep Neural Network Library",
         image: ProjectDNN,

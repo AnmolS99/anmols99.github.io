@@ -1,12 +1,13 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn"
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import "../styles/Home.css";
 import Wave from "../components/Wave";
 import SkillList from "../components/SkillList";
 import {
     PythonImg,
+    DotNetImg,
     JavaImg,
     CImg,
     TensorflowImg,
@@ -53,7 +54,9 @@ function Home() {
                 <ol className="list">
                     <li className="item">
                         <h2>Languages</h2>
-                        <SkillList skillImgList={[PythonImg, JavaImg, CImg]} />
+                        <SkillList
+                            skillImgList={[PythonImg, DotNetImg, JavaImg]}
+                        />
                     </li>
                     <li className="item">
                         <h2>AI</h2>

@@ -1,5 +1,7 @@
 export const PythonImg =
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg";
+export const DotNetImg =
+    "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dotnet.svg";
 export const JavaImg =
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg";
 export const CImg =

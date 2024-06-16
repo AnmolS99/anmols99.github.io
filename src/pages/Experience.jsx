@@ -32,14 +32,15 @@ function Experience() {
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Norges teknisk-naturvitenskapelige universitet
+                        Norges teknisk-naturvitenskapelige universitet (NTNU)
                     </h3>
                     <h4 className="vertical-timeline-element-title">
                         Trondheim
                     </h4>
                     <p>
                         Master's degree in Computer Science w/ specialization in
-                        AI
+                        AI. Master's thesis: Deep Reinforcement Learning for
+                        Spatial-Temporal Wildlife Management
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -83,7 +84,7 @@ function Experience() {
                         IT Consultant, Itera
                     </h3>
                     <h4 className="vertical-timeline-element-title">Oslo</h4>
-                    <p>Graduate developer for Itera.</p>
+                    <p>Fullstack developer for Itera.</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
