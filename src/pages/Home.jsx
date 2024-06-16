@@ -9,7 +9,6 @@ import {
     PythonImg,
     DotNetImg,
     JavaImg,
-    CImg,
     TensorflowImg,
     KerasImg,
     NumPyImg,
